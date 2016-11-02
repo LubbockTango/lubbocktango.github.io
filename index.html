@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>TTU Tango Orchestra</title>
+
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -14,12 +15,12 @@
   </head>
 
   <body>
-
+<div class="background">
   <div class="navbar-fixed">
     <nav class="red darken-3" role="navigation">
-      <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo">TTU Tango Orchestra</a>
+      <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo"><img class="logo-style" src="pics/short-tango.png"/></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#" class="active">Home</a></li>
+          <li class="active"><a href="#">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="documentary.html">Film</a></li>
           <li><a href="articles.html">Articles</a></li>
@@ -37,14 +38,23 @@
       </div>
     </nav>
 </div>
-<div class="row"></div>
-<div class="carousel">
-    <a class="carousel-item" href="#one!"><img class = "responsive-img" src="http://placekitten.com/500/500"></a>
-    <a class="carousel-item" href="#two!"><img class = "responsive-img" src="http://placekitten.com/500/500"></a>
-    <a class="carousel-item" href="#three!"><img class = "responsive-img" src="http://placekitten.com/500/500"></a>
-    <a class="carousel-item" href="#four!"><img class = "responsive-img" src="http://placekitten.com/500/500"></a>
-    <a class="carousel-item" href="#five!"><img class = "responsive-img" src="http://placekitten.com/500/500"></a>
+
+<div class="parallax-container">
+      <div class="parallax"><img src="pics/tech_2.jpg"></div>
+    </div>
+
+<div class= "row">
+<div class="carousel center">
+
+    <a class="carousel-item" href="#one!"><img class = "responsive-img" src="http://placekitten.com/500/300"></a>
+    <a class="carousel-item" href="#two!"><img class = "responsive-img" src="http://placekitten.com/500/300"></a>
+    <a class="carousel-item" href="#three!"><img class = "responsive-img" src="http://placekitten.com/500/300"></a>
+    <a class="carousel-item" href="#four!"><img class = "responsive-img" src="http://placekitten.com/500/300"></a>
+    <a class="carousel-item" href="#five!"><img class = "responsive-img" src="http://placekitten.com/500/300"></a>
   </div>
+</div>
+
+
 <div class= "container">
 
 </div>
@@ -59,7 +69,7 @@
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/doublettango/"><img class="like-style" src="pics/like.png" /></a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
@@ -75,6 +85,7 @@
           </div>
         </footer>
     <!--Import jQuery before materialize.js-->
+  </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <script type="text/javascript" src="init.js"></script>

@@ -85,3 +85,16 @@
   transform: translateX(0px);
   -webkit-transform: translateX(0px);
 }
+
+.logo-style {
+  height:60px;
+  width:auto;
+}
+
+.like-style {
+  height:30px;
+  width:auto;
+}
+.parallax-container {
+      height: 600px;
+    }

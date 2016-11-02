@@ -4136,6 +4136,8 @@ nav .brand-logo {
   font-size: 2.1rem;
   padding: 0;
   white-space: nowrap;
+  height:50%;
+  width:50%;
 }
 
 nav .brand-logo.center {
@@ -7405,9 +7407,9 @@ input[type=range]:focus::-ms-fill-upper {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 700px;
-  -webkit-perspective: 700px;
-          perspective: 700px;
+  height: 400px;
+  -webkit-perspective: 500px;
+          perspective: 500px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transform-origin: 0% 50%;
@@ -7415,7 +7417,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .carousel .carousel-item {
-  width: 700px;
+  width: 200px;
   position: absolute;
   top: 0;
   left: 0;

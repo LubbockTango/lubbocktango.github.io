@@ -2,9 +2,8 @@
   $(document).ready(function(){
 
     $('.button-collapse').sideNav();
-    //$('.carousel').carousel({full_width; true});
+    $('.parallax').parallax();
     $('.carousel').carousel();
-    $('.carousel.carousel-slider').carousel({full_width: true});
 
 
   }); // end of document ready
