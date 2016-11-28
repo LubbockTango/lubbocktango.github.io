@@ -82,7 +82,7 @@
 }
 
 .logo-style {
-    height: 60px;
+    height: 180%;
     width: auto;
 }
 
@@ -112,5 +112,5 @@
 .video-paper {
   width: 100%;
   height:auto;
-  
+
 }
