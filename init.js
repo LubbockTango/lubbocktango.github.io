@@ -1,10 +1,10 @@
-(function($){
-  $(document).ready(function(){
+(function($) {
+    $(document).ready(function() {
 
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-    $('.carousel').carousel();
+        $('.button-collapse').sideNav();
+        $('.parallax').parallax();
+        $('.carousel').carousel();
 
 
-  }); // end of document ready
+    }); // end of document ready
 })(jQuery); // end of jQuery name space
