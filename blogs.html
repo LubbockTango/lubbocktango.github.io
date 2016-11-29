@@ -1,106 +1,303 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>TTU Tango Orchestra</title>
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-      <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-      <link rel="stylesheet" href="styles/palette.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
-      <link rel="stylesheet" href="styles/app.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="styles/palette.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-  <body>
+<body>
 
-  <div class="navbar-fixed">
-    <nav class="red darken-3" role="navigation">
-      <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo"><img class="logo-style" src="pics/short-tango.png"/></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="documentary.html">Film</a></li>
-          <li><a href="articles.html">Articles</a></li>
-          <li class="active"><a href="#">Blogs</a></li>
-          <li><a href="interviews.html">Interviews</a></li>
-        </ul>
+    <div class="navbar-fixed">
+        <nav class="red darken-3" role="navigation">
+            <div class="nav-wrapper">
+                <a id="logo-container" href="#" class="brand-logo"><img class="logo-style" src="pics/short-tango.png" /></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="documentary.html">Film</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li class="active"><a href="#">Blogs</a></li>
+                    <li><a href="interviews.html">Interviews</a></li>
+                </ul>
 
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="documentary.html">Film</a></li>
-          <li><a href="articles.html">Articles</a></li>
-          <li><a href="#" class="active">Blogs</a></li>
-          <li><a href="interviews.html">Interviews</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
-    </nav>
-</div>
-<div class='row'></div>
-  <div class="container-2">
-  <div class="row">
-    <div class="col s3">
-        <div class="box"> <img src="http://placekitten.com/400/600" class="responsive-img">
-            <a href="webblogs.html" class="overbox">
-                <div class="title overtext"> Web Team </div>
-            </a>
-        </div>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="documentary.html">Film</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="interviews.html">Interviews</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
     </div>
-    <div class="col s3">
-        <div class="box">
-            <img src="http://placekitten.com/400/600" class="responsive-img">
-            <a href="filmblogs.html" class="overbox">
-                <div class="title overtext"> Film Crew </div>
-            </a>
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s3"><a href="#web">Web Developers</a></li>
+                <li class="tab col s3"><a href="#film">Film Directors</a></li>
+                <li class="tab col s3"><a href="#research">Field Researchers</a></li>
+                <li class="tab col s3"><a href="#authors">Authors</a></li>
+            </ul>
         </div>
-    </div>
-    <div class="col s3">
-        <div class="box"> <img src="http://placekitten.com/400/600" class="responsive-img">
-            <a href="researchblogs.html" class="overbox">
-                <div class="title overtext"> Field Researchers </div>
-            </a>
-        </div>
-    </div>
-    <div class="col s3">
-        <div class="box"> <img src="http://placekitten.com/400/600" class="responsive-img">
-            <a href="authorblogs.html" class="overbox">
-                <div class="title overtext"> Authors </div>
-            </a>
-        </div>
-    </div>
-</div>
-  </div>
-  <footer class="page-footer red darken-3">
-      <div class="container">
-          <div class="row">
-              <div class="col l6 s12">
-                  <h5 class="white-text">Double T Tango</h5>
-                  <p class="grey-text text-lighten-4">This website has been created by the Texas Tech Honors First Year Experience Music and Globalization class in our research and exploration of Tango music. For educational purposes only.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                  <h5 class="white-text">Links</h5>
-                  <ul>
-                      <li>
-                          <a class="grey-text text-lighten-3" href="https://www.facebook.com/doublettango/"><img class="like-style" src="pics/like.png" /></a>
-                      </li>
-                      <li><a class="grey-text text-lighten-3" href="http://www.doublettango.com/">The Double T Tango Orchestra</a></li>
-                      <li><a class="grey-text text-lighten-3" href="http://www.depts.ttu.edu/music/">The Texas Tech School of Music</a></li>
-                  </ul>
-              </div>
+        <div id="web" class="col s12">
+            <div class="container-2">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card grey darken-3">
+                            <div class="card-content white-text">
+                                <span class="card-title">Tatum Richey</span>
+                                <p> Throughout the research project my role hasn’t been quite as important until we begin finishing each individual component of the website, such as the reports and transcripts, as I will be editing the final products. However,
+                                    I have learned much throughout the preparation of the website and the progress that others have made and my own research. Until now, I had always thought of Tango the way America portrays it, in a very sensual and romantic
+                                    way with stiff movements in the dancing and sharp staccato notes, and I always had the picture of someone of a man dressed in nice clothes with a red rose between his teeth. And through his dance, basically, “hitting”
+                                    on a beautiful woman. That’s the scene I always associated with Tango. But since reading and researching, I realize that that is not how it started out when it originated in Argentina, that in fact it began in the rough
+                                    part of the country as low-class! That just shocked me. I have also learned how much goes into making a website. Hannah is so talented and has knowledge way beyond what I ever even thought about with technology, so
+                                    it has been very interesting to see all that she has come up with from scratch. I also have the job of writing the About blurb for the website, which will hopefully give an adequate summary of what there is to explore
+                                    on the page. Throughout this project and the beginning of editing, I have been forced to not worry about hurting the writers’ feelings when I give criticism or offer a better way to phrase things, which has definitely
+                                    been a challenge for me because I’m always worried about hurting feelings, but this project has allowed me to understand how to be professional in delivering criticism, which will surely be very beneficial in the future.
+                                    Another thing I have found so interesting throughout the project was the transformation that the art of Tango has undergone. As I researched old Tango I came across some old footage on YouTube from an Argentinian film.
+                                    In the film, which I’m guessing took place after the romanticizing of Tango began, there are many couples dancing at what resembles an old dance hall and there is a Tango Orchestra band in the corner playing. Although
+                                    there is a taste of romance the song is more about mostly about the music and there is less focus on the dancers themselves. At this time in the video, very traditional style Tango music being played. This is opposed
+                                    to the Tango of today’s culture as seen in America, where Tango is a dance that can be performed to many different songs and genres of music including the example I found from Dancing With the Stars, in which the popular
+                                    song “Can’t Keep My Hands to Myself” by Selena Gomez is used for the Tango Style Dance for the week. One thing I did notice that comes through both examples was the level of exaggeration and drama that comes across.
+                                    Tango is a very theatrical performance. It is just crazy to me how Tango has evolved from its humble beginnings to its stance of such beauty and expression as its portrayed in the world today. I look forward to learning
+                                    even more about the history and art behind Tango. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card grey darken-3">
+                            <div class="card-content white-text">
+                                <span class="card-title">Josh Williams</span>
+                                <p>In this tango project, I learned an incredible amount of information about the music and culture of Tango, and developed experience and understanding in web design. I worked with a team of four people in charge of the website
+                                    for this project. My role specifically included researching and planning the layout for the content of the site, planning meetings for our group, and developing a logo for the project.
+                                    <br/>This project has taught me an incredible amount of knowledge over tango music that I would never have received in a typical classroom setting. Even as someone on the website team, I have learned interesting information
+                                    over the background of tango music, the traditional instrumentation of tango, other cultural influences in tango music, and the differences between traditional tango music and the modern tango music we know today that
+                                    has spread across the globe. I have a newly developed taste for tango music now, whereas before, I paid little attention to the music. Now, after listening to the Double T Tango Orchestra and researching the traditions
+                                    behind tango music, I have respect for the culture, and enjoy the music even more.
+                                    <br/>After viewing countless websites made for companies, music ensembles, colleges, etc. I found that making a good website that is both easy to navigate and aesthetically pleasing is no easy task, and many people
+                                    even fall short in doing so. Through this project, I’ve learned to better appreciate a well-made website, but I’ve also began to more frequently notice poorly made ones as well. I more closely analyze the overall look
+                                    and feel of a site, and found that this is something crucial to the success of a company. If a website is clunky, and the layout is ugly, the company behind it looks unprofessional. With that in mind, we made sure to
+                                    focus on a minimalistic design with our site. This was to avoid bombarding the user with too many options, and to make the site run as smooth and simple as possible while still displaying all of the work by the students
+                                    in our class.
+                                    <br/>Before the start of this project, I knew about Tango music, but I had never truly appreciated it. Afterwards, however, I have a new-found appreciation and respect for the music and culture associated with Tango
+                                    music. If it weren’t for this tango project, I would have never gained the respect I have for Tango, and might not have ever enjoyed it like I do today. Thanks to the Double T Tango Orchestra and this project, I have
+                                    learned a great deal of knowledge over Tango and gained important experience in web development.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card grey darken-3">
+                            <div class="card-content white-text">
+                                <span class="card-title">Mark Noble</span>
+                                <p>For this project, I primarily worked with the web design team. I wanted to contribute to the aesthetic of the website, ensuring that it looked attractive and that it was easy to navigate. Because I have some amateur experience in photography,
+                                    I decided to utilize my skills and interest by taking some photos and by editing some pictures for the website. This included both atmospheric photography and photos of the Double T Tango ensemble. My atmospheric photos were primarily
+                                    compromised of pictures featuring Lubbock sunrises and pictures of Texas Tech’s beautiful campus. For my photos of the ensemble, I took pictures of them both performing and practicing. I learned a great deal about both photography
+                                    and web design through my work. I was sometimes frustrated by my inability to take pictures that I was satisfied with. I often found it hard to take pictures of the whole group during practice and performance without sacrificing
+                                    a certain amount of aesthetic to the pictures. I overcame this challenge by changing my expectations of perfectionism, as well as by getting advice from skilled photographers that I knew. I used their advice to better capture the
+                                    group, and overall I am very satisfied with the result. <br/> The website design team comprised of Hannah, Tatum, Josh and I all were all able to learn from each other’s experience, and we built off of everyone’s interests and
+                                    skills. I was very impressed with Hannah’s extensive previous knowledge of web design, and I learned a lot from her work and input. I am very satisfied with the website, and I believe that it has an appropriate aesthetic and utility,
+                                    as well as a plethora of good information regarding Tango and the Double T Tango orchestra. <br/> As for what I learned, I attended one of the Double T Tango orchestra’s performances in order to take some pictures of the group.
+                                    I appreciated this experience because it allowed me listen to them perform in a professional setting, and it allowed me to have a greater understanding of the music involved with tango. Attending their performance changed my perceptions
+                                    of tango from my original idea that tango was compromised of over-sexualized music and dancing. I learned in my Music and Globalization class as well that Tango has a much richer background and culture to it, that accounts for
+                                    its unique sounds and rhythms. I appreciate tango so much more for what it is through my experience, and I enjoyed the opportunity expand my knowledge and grow my skills in photography. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card grey darken-3">
+                            <div class="card-content white-text">
+                                <span class="card-title">Hannah Estes</span>
+                                <p>During this project, I have really enjoyed being a member of the web development team because it has allowed me to utilize and improve my web development skills as well as learn more about Tango music. User interface design and development
+                                    has never been a strength of mine compared to my other programming skills, so this project has been a challenge for me. Every time I have developed a website, I have always had someone with more experience helping me- but in this
+                                    project, I have been the expert. This has pushed me to do a lot of research and learning, and has also forced me to take a bit of a leadership role over this portion of the project. It was really intimidating at first, but when
+                                    I realized how well our team works together and how much everyone's skills offer different benefits to the project, I knew we were going to put together a great final product.
+                                    <br/><br/> I think the work our team has done is so unique because it is our responsibility to make sure everyone else's hard work is accessible, easy to navigate, and pleasing to look at. I know I have learned so much about Tango
+                                    simply by seeing all of the work the rest of our class is doing. As we near the end of this project, I cannot wait to see everyone else's accomplishments and bring them all together to form one cohesive product.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
           </div>
-      </div>
-      <div class="footer-copyright">
-          <div class="container">
-              &#169 2016 TTU HONS 1304
-          </div>
-      </div>
-  </footer>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-    <script src="init.js"></script>
-  </body>
+            <div id="film" class="col s12">
+                <div class="container-2">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card grey darken-3">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Lillian Phan</span>
+                                    <p>As a first-time director, I knew that this project would be a challenge to me. I had never put together a video before. The first thing I did was go observe a Tango Ensemble rehearsal. It was interesting to see how
+                                        this ensemble rehearsed compared to the other ensembles that I’ve been in. It seemed much more relaxed, especially since the conductor is also playing an instrument in the ensemble as well. What most people don’t
+                                        realize is how unique tango music is. It can be very sweet or very rough sounding. I liked being able to see the music side of tango versus the dancing side of tango that people focus on more often. Although there
+                                        is more focus on the tango dance, both are very important to each other. Charles, the director of the tango ensemble, had placed importance on the musicians trying out a tango dance class to better understand the
+                                        style. I had tried to play a tango piece before on my flute but I could never quite get the style down… maybe I should have taken a tango dance class! Working on the video has been a great learning experience as
+                                        well. I’ve gotten to learn a lot about how putting together a video works. There are a lot of details that go into making a video look and sound professional. It has been great working with Noah on this project.
+                                        I’ve learned a lot from him! Being a co-director is great because I get to see a lot of different parts of the project come together into one, and I get to learn a little bit from each one! For example, I’ve also
+                                        learned how to film in addition to being a director. Listening to the interviews has also taught me a lot about tango. It was cool to hear about the genre from the perspective of a musician instead of just reading
+                                        about it online somewhere. I’m glad to have been able to learn so much about the tango ensemble here at Tech as well as Tango in general! I hope everyone will enjoy watching the video that we all put together!
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card grey darken-3">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Matt Buxton</span>
+                                    <p>The documentary project has been a long and grueling process that has consumed much time. When we first began the project, I severely underestimated the amount of time it would take to complete the documentary project.
+                                        I often collaborated with Noah and Lillian while they constructed the basic structure for the documentary. I particularly enjoyed discovering the experiences that both Noah and Lillian brought to the storyboard
+                                        discussions. It definitely strengthened the vision for the documentary by combining multiple opinions and viewpoints. Additionally, I contributed to the documentary by tracking down third-party media sources that
+                                        would enhance and heighten the quality of our documentary. I drew from the atmosphere that Texas Tech University creates and the schism that separates traditional tango from the sensationalized version that is present
+                                        today in the media. It has been a trying time this semester. Juggling the adjustments to college while pouring hour outside of the classroom has made for a very strenuous and hectic semester. The hard deadline for
+                                        the documentary has created a sense of urgency that has pressed myself and my fellow classmates to create the best documentary possible. To summarize, this semester-long documentary project has allowed me to research
+                                        a very interesting subject. But more importantly, the documentary has forced me to grow as an individual. The things I have learned from the collaboration with my peers will apply to every aspect of my life in the
+                                        foreseeable future. I hope you will enjoy the documentary, for it has been a labor of love!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card grey darken-3">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Brogan Stewart</span>
+                                    <p>As this semester draws near to an end and the due date of the tango class project, I have begun to remember all I have learned. For the project, I took part of filming interviews and footage from around the campus for
+                                        the documentary. During this experience, I have begun to see how much Americans take music from different cultures and countries and make it into something new. This is especially true for the tango. There is a
+                                        huge difference between what most Americans, including me, think about tango and the original tango. During this project, I recorded interviews for the most part which is when I did most of my learning. I mainly
+                                        learned that Tango is not from Spain like I previously thought, but instead comes from Argentina. I also learned that tango is used for dancing, but it is not as sexualized as Hollywood makes it out to me. Even
+                                        when I went and recorded random interviews of people asking about tango, most people would consistently think about dancing being associated with tango, but people's guesses about where tango originated is all over
+                                        the place. My time working on the class tango project has been very eye opening about how much American don't know about music in other countries, but instead make up their own explanations. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="research" class="col s12">
+                <div class="container-2">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card horizontal grey darken-3">
+                                <div class="card-image col s3">
+                                    <img class="card-pic" src="pics/SydneyB.jpeg">
+                                </div>
+                                <div class="card-stacked">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Excerpts from Sydney Brammer's Field Notes
+                        on the TTU Tango Orchestra</span>
+
+                                        <p>
+                                            <div class='underline'>On Rehearsals:</div> What stood out to me the most, as an observer, was the ensemble's ability to communicate. While I have been in small ensemble settings myself, such as quartets or chamber groups, rarely
+                                            have I seen such a strong connection between so many players. It is already a challenge to maintain pulse and awareness between a handful of players- it's much more difficult with so many people. Plenty of groups
+                                            their size (around 20 members or so) have a director who is conducting the piece, at least to some degree. While Mr. Charles Olivier is the director of the TTU Tango Orchestra, he plays bandoneon within in the
+                                            ensemble. This means that most of the time no one is only conducting. The players use visual cues and eye contact to stay together, which is quite impressive considering some players are 10 feet apart or so.
+                                            <br/>
+                                            <div class='underline'>On interviews:</div> I was thoroughly blown away by the way that students in the Tango Orchestra answered the interview questions that they were asked. Many of them expressed a deep respect for the culture behind
+                                            the music and enjoyment for the program itself. I never anticipated that they would have the answers that they did and they exceeded my expectations. Both Adam Smith and Charles Olivier were very informative
+                                            as far as what it's like to participate in the Double T Tango ensemble as well as some of the history behind the music. I think we gathered some really helpful information from both sources.
+                                            <br/>
+                                            <div class='underline'>On the project itself:</div> This project has been a fantastic learning experience as far as the knowledge that I have gained about tango but also in terms of the skills that I have developed through working
+                                            on this documentary. I believe that the final product will certainly be indicative of all of the hard work and time that went into the production of the piece and look forward to seeing it.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card grey darken-3">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Sabryn Aguilar</span>
+                                    <p>Over the past three months my honors Music and Globalization class has been working together to help the Texas Tech Tango ensemble create different medias to become more known throughout campus. My position in this
+                                        team effort was to be a field worker. My responsibilities included attending the tango ensemble rehearsals, making a timeline of a normal rehearsal and interviewing some of the members of the ensemble. I chose this
+                                        position because I knew that my weaknesses were mostly related to speaking to strangers because I am an extremely shy person. I wanted to force myself to "come out of my shell" during my first semester here at Texas
+                                        Tech University, and I figured this position as a field worker would do just that. My first step was attending the rehearsals, which was actually not bad at all. I enjoyed listening to the music that they were making
+                                        and I also made many connections to how rehearsals run in band. Since I am in band, I quickly picked up on the cycle of the rehearsals which is as follows: Charles, the director of the ensemble, would have the ensemble
+                                        play through an entire piece and then they would go back and fix the problem areas. During one rehearsal, I recorded the events that occurred and the times that everything happened. I used this to create a time
+                                        sheet of the typical rehearsal for the website. The most difficult parts of my job were the interviews. As I said before, I am extremely shy. It was so difficult for me to actually set up interview times because
+                                        I was dreading it so much and, therefore, I procrastinated until I could no longer put it off. However, once I did the interviews, I found that it wasn't as bad as I thought it would be. Through this experience
+                                        I learned that speaking to people is not bad at all. I just have to push myself to get what needs to be done done so that it'll be finished sooner and then I won't be stressing about it when the project is almost
+                                        due.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="authors" class="col s12">
+                <div class="container-2">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card grey darken-3">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Danielle Bodette</span>
+                                    <p> Going into this project, I was unsure of what to expect. It appeared to be very intimidating to me at first but after reading quite a few books and doing some deep research, I was instantly intrigued and dove head over
+                                        heels into my paper. I learned not only about the music and dance of the tango but also learned a lot about the culture of Buenos Aires and Argentina as a whole. Through my research I have also developed a greater
+                                        sense of the world and America during the early 1900s and how social structure and culture has changed since then. All the information I personally gained I put into the format of a paper with examples and even
+                                        a video, hoping the reader will be intrigued and will also be able to tie it to examples of the modern society. From what started off as very intimidating became extremely interesting and I have benefited greatly
+                                        from this project.
+
+                                        <br/><br/>Although my role was one of individual nature, it has also been interesting to watch the other teams work together to form their portion of the project. The work ethic put into this project has been amazing
+                                        and I am very excited to see all parts come together to form the final project.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer red darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Double T Tango</h5>
+                        <p class="grey-text text-lighten-4">This website has been created by the Texas Tech Honors First Year Experience Music and Globalization class in our research and exploration of Tango music. For educational purposes only.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li>
+                                <a class="grey-text text-lighten-3" href="https://www.facebook.com/doublettango/"><img class="like-style" src="pics/like.png" /></a>
+                            </li>
+                            <li><a class="grey-text text-lighten-3" href="http://www.doublettango.com/">The Double T Tango Orchestra</a></li>
+                            <li><a class="grey-text text-lighten-3" href="http://www.depts.ttu.edu/music/">The Texas Tech School of Music</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    &#169 2016 TTU HONS 1304
+                </div>
+            </div>
+        </footer>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+        <script src="init.js"></script>
+</body>
+
 </html>
